@@ -1,0 +1,43 @@
+.categories {
+  padding: 2rem;
+
+  background-color: #e4f2ff;
+}
+
+.categories h2 {
+  margin-bottom: 2rem;
+  padding-left: 100px;
+  padding-top: 107px;
+  padding-bottom: 43px;
+  color: #000000d9;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  padding-left: 100px;
+  column-gap: 92px;
+  row-gap: 27px;
+}
+
+.categoryCard {
+  background-color: #fff;
+  padding-left: 28px;
+  padding-bottom: 45px;
+}
+
+.categoryIcon {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  padding-top: 61px;
+}
+
+.categoryName {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000cc;
+  padding-right: 120px;
+}
