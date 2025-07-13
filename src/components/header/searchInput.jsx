@@ -2,6 +2,7 @@ import styles from "./SearchInput.module.css";
 import Rectangle_12 from "../../assets/Rectangle_12.svg";
 import searchIcon from "../../assets/icons/search.png";
 import locationIcon from "../../assets/icons/location.png";
+import InputWithIcon from "./InputWithIcon";
 
 function SearchInput() {
   return (
@@ -12,14 +13,11 @@ function SearchInput() {
         </h1>
         <div className={styles.searchBoxes}>
           <div className={styles.inputGroup}>
-            <div className={styles.inputWithIcon}>
-              <img className={styles.icon} src={searchIcon} alt="logo" />
-              <input type="text" placeholder="Должность или компания" />
-            </div>
-            <div className={styles.inputWithIcon}>
-              <img className={styles.icon} src={locationIcon} alt="logo" />
-              <input type="text" placeholder="Город, Страна" />
-            </div>
+            <InputWithIcon
+              icon={searchIcon}
+              placeholder="Должность или компания"
+            />
+            <InputWithIcon icon={locationIcon} placeholder="Город, Страна" />
           </div>
           <button>Поиск</button>
         </div>
