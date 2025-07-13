@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #cde7ff;
+  max-width: 1920px;
+  width: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+}
+
+.logo {
+  padding-left: 6.25rem;
+  padding-top: 1.88rem;
+  padding-bottom: 2.1rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 3.31rem;
+  list-style: none;
+  margin: 0;
+  padding-left: 6.81rem;
+}
+
+.link {
+  text-decoration: none;
+  color: #000000cc;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: Raleway;
+}
+
+.auth {
+  display: flex;
+  align-items: center;
+  gap: 3.31rem;
+  margin-left: auto;
+  padding-right: 6.25rem;
+}
+.button {
+  background-color: #ffffff;
+  width: 65px;
+  height: 44px;
+  border: none;
+}
