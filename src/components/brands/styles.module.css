@@ -1,0 +1,17 @@
+.jobSearch {
+  display: flex;
+  justify-content: space-between;
+  height: 11.25rem;
+  align-items: center;
+}
+.title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #696969cc;
+  padding-left: 101px;
+}
+.conteinerRight {
+  display: flex;
+  gap: 57px;
+  padding-right: 100px;
+}
