@@ -1,6 +1,7 @@
 import Header from "../../components/header";
 import Brends from "../../components/brands";
 import CategoryCard from "../../components/categoryCard";
+import VacancyCard from "../../components/vacancyCard";
 
 function Home() {
   return (
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <Brends />
       <CategoryCard />
+      <VacancyCard />
     </>
   );
 }

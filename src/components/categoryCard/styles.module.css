@@ -1,6 +1,5 @@
 .categories {
   padding: 2rem;
-
   background-color: #e4f2ff;
 }
 
@@ -18,7 +17,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 1rem;
-  padding-left: 100px;
+  padding: 0 100px;
   column-gap: 92px;
   row-gap: 27px;
 }
@@ -27,6 +26,7 @@
   background-color: #fff;
   padding-left: 28px;
   padding-bottom: 45px;
+  box-shadow: 2px 4px 4px 0px #00000026;
 }
 
 .categoryIcon {

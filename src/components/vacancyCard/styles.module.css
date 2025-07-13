@@ -1,0 +1,50 @@
+.vacancies {
+  padding: 0 32px;
+  background-color: #e4f2ff;
+}
+
+.vacancies h2 {
+  margin-bottom: 12px;
+  padding-left: 100px;
+  padding-top: 134px;
+  color: #000000d9;
+  font-size: 28px;
+  font-weight: 700;
+}
+.vacancies p {
+  padding-left: 100px;
+  padding-bottom: 43px;
+  color: #8d8d8dcc;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.vacancyGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 0 100px;
+  column-gap: 203px;
+  row-gap: 40px;
+}
+
+.vacancyCard {
+  background-color: #fff;
+  padding: 1rem;
+  text-align: left;
+  box-shadow: 2px 4px 4px 0px #00000026;
+}
+
+.vacancyCard h3 {
+  margin-top: 0;
+}
+
+.viewAll {
+  padding: 1rem 2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
