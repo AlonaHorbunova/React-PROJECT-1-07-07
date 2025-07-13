@@ -1,5 +1,6 @@
 import styles from "./styles.module.css";
 import cooljobIcon from "../../assets/icons/Cooljob.png";
+import SearchInput from "./searchInput";
 
 function Header() {
   return (
@@ -30,6 +31,7 @@ function Header() {
           </button>
         </div>
       </nav>
+      <SearchInput />
     </header>
   );
 }
